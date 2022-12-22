@@ -1,0 +1,93 @@
+.loginScreen{
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2019/11/hipertextual-si-te-vas-netflix-no-olvides-descargar-mi-actividad-mi-lista-2019814675.jpg?fit=1500%2C1000&ssl=1') center no-repeat;
+    background-size: cover;
+}
+
+.fade{
+    /* z-index: 10; */
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.7));
+}
+
+.nav_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.signUp{
+    padding: 7px 14px;
+    margin-right: 12px;
+    background: #E50914;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+.loginScreen_body{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.loginScreen_body > h1 {
+    padding: 0 25px;
+}
+
+.loginScreen_body > h3 {
+    font-weight: 350;
+    padding-top: 10px;
+}
+
+.loginScreen_body > p {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.input_email{
+    padding-top: 12px;
+}
+
+.input_email > input {
+    height: 20px;
+    font-size: 0.8rem;
+    padding: 7px 8px;
+    width: 35vw;
+    min-width: 254px;
+    outline: none;
+    border: none;
+    margin-top: 3px;;
+}
+
+.input_email > button {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: #E50914;
+    padding: 12px 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 3px;
+}

@@ -1,0 +1,54 @@
+.banner{
+    min-height: 448px;
+    max-height: 448px;
+    object-fit: contain;
+    color: white;
+    background: #E50914;
+    margin-bottom: 10px;;
+}
+
+.header_contents{
+    top: 220px;
+    left: 20px;
+    max-width: 400px;
+    padding-top: 195px;
+    margin-left: 12px;
+}
+
+.movie__name{
+    font-size: clamp(1.8rem, 46px, 3rem);
+    font-weight: 700;
+}
+
+.header_buttons {
+    margin-top: 15px;
+}
+
+.header_button{
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    outline: none;
+    margin-right: 7px;;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 400;
+    color: white;
+    transition: all ease-in 300ms;
+}
+
+.header_button:hover {
+    background-color: #E50914;
+    font-size: 0.9em;
+}
+
+.movie_des{
+    color: white;
+    font-size: 12px;
+    margin-left: 7px;
+    margin-top: 18px;
+}
+
+.fade_effect{
+    height: 7rem;
+    background-image: linear-gradient(to bottom, transparent, rgba(37, 37, 37, 0.41), #111);
+}

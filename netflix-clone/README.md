@@ -1,4 +1,4 @@
-Click here to visit - https://netflix-clone-nitish.web.app/
+Click here to visit - https://elaborate-marshmallow-a94946.netlify.app/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
